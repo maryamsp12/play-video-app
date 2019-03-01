@@ -12,7 +12,7 @@ class SearchBar extends Component {
 
     render() { 
         return ( 
-            <div className="ui segment search-bar">
+            <div className="ui segment search-bar" style={{marginTop:'30px', background: 'rgba(34,36,38,.15)'}}>
             <form onSubmit={this.handleFormSubmit} className="ui form">
             <div className="field">
                 <label>Video Search</label>
